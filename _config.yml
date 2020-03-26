@@ -23,7 +23,7 @@ email: jimcalvinmarti@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pràctica de web static generator
 baseurl: "staticwebsite" # the subpath of your site, e.g. /blog
-url: "http://james.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jamescalvinmarti.github.io/staticwebsite/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jamescalvinmarti
 
