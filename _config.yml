@@ -22,26 +22,16 @@ title: Blog d'en James
 email: jimcalvinmarti@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pràctica de web static generator
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "staticwebsite" # the subpath of your site, e.g. /blog
 url: "http://james.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jamescalvinmarti
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-lsi: false
-safe: true
-# source: staticwebsite
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
   
 # Exclude from processing.
 # The following items will not be processed, by default.
